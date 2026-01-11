@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { ByteFlags } from 'byteflags';
 import { Toggle } from '../components/Toggle';
 import { ArrowRight, Database, Cpu, Zap, Terminal, Server, Gamepad2, Shield, Gauge, Layers, BookOpen } from 'lucide-react';
