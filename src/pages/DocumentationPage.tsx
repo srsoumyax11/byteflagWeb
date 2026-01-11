@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, Copy, Check } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-const CodeBlock = ({ code, language = 'typescript' }: { code: string, language?: string }) => {
+const CodeBlock = ({ code = 'typescript' }: { code: string, language?: string }) => {
     const [copied, setCopied] = React.useState(false);
 
     const copyToClipboard = () => {
